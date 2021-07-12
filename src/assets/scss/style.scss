@@ -65,12 +65,11 @@
         
     }
     .service-wrapper{
-        height: 500px;
         position: relative;
         margin-top: 200px;
     }
     .blog-wrapper{
-        height: 758px;
+
         position: relative;
         margin-top: 150px;
     }
@@ -101,10 +100,16 @@
     }
 }
 
-
-.navbar2{
-    .btn2{
-        border-radius: 3rem;
+Header{
+    .navbar1{
+        background-color: #f0ede7;
+        .navbar2{
+            height: 4rem;
+            background-color: #f0ede7;
+            .btn2{
+                border-radius: 3rem;
+            }
+        }
     }
 }
 

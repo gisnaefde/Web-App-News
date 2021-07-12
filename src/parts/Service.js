@@ -20,12 +20,14 @@ const Service = () => {
                     </div>
                     <div className="col-md-7 ">
                         <div className="text">
-                            <h2>ApaBerita yang <span>paling di sukai </span>?</h2>
-                            <p>Klik dibawah</p>
+                            <h2>Konten <span>Berita</span></h2>
+                            <p>Konten yang dimuat merupakan konten ang bersifat realtime dengan isu-isu terbaru khusunya yang terjadi di Indonesia. Isi konten terjamin aktualitasnya karena bersumber dari media yang terpercata. Disamping itu konten yang dimuat juga beragam mulai dari politik, ekonomi, kesehatan dan juga olahraga.</p>
+                            <h5>Silahkan pilih salah satu kategori konten yang anda sukai untuk dapat menjelajahi nya lebih lanjut.</h5>
                             <ul>
-                                <li>Sport</li>
-                                <li>Politic</li>
-                                <li>Economy</li>
+                                <li>Politik</li>
+                                <li>Ekonomi</li>
+                                <li>Kesehatan</li>
+                                <li>Olahraga</li>
                             </ul>
                         </div>
                     </div>

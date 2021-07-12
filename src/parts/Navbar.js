@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <header >
-            <div className="container fixed-top">
-                <nav class="navbar navbar-expand-md navbar-light mt-4 navbar2">
+        <header className="">
+            <div className="fixed-top navbar1 shadow-md">
+                <nav class=" container navbar navbar-expand-md navbar-light  navbar2">
                     <a class="navbar-brand font-weight-bold" href="#">GIFADE NEWS</a>
                     {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
