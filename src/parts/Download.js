@@ -9,11 +9,11 @@ const Download = () => {
             <div className='row d-flex align-items-center row2'>
                 <div className='col-6 download1'>
                     <h3><span>Download</span> Aplikasi <span>GIFADE NEWS</span> untuk <span>Android</span> dan <span> Ios</span></h3>
-                    <img src={download3} className="photo-download2 align-items-between"></img>
-                    <img src={download4} className="photo-download2 align-items-between"></img>
+                    <img src={download3} alt="" className="photo-download2 align-items-between"></img>
+                    <img src={download4} alt="" className="photo-download2 align-items-between"></img>
                 </div>
                 <div className='col-3 download2'>
-                    <img src={download1} className='photo-download'></img>
+                    <img src={download1} alt="" className='photo-download'></img>
                 </div>
                 <div className='col-3 download2'>
                     <h2><span>DISKON 40% UNTUK YANG BERLANGGANAN SAMPAI 17 AGUSTUS 2021</span></h2>

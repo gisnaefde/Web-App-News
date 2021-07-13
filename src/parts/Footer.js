@@ -6,6 +6,13 @@ import wa from '../assets/icons/wa.png';
 
 
 const Footer = () => {
+
+    function top(){
+        window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })
+    }
     return (
         <section className="footer container">
             <div className="row row2">
@@ -30,10 +37,11 @@ const Footer = () => {
                 </div>
                 <div className="col-md-2 cold2">
                     <h4>Contact Us</h4>
-                    <img src={ig}></img>
-                    <img src={wa}></img>
-                    <img src={fb}></img>
-                    <img src={twitter}></img>
+                    <img src={ig} alt=""></img>
+                    <img src={wa} alt=""></img>
+                    <img src={fb} alt="" ></img>
+                    <img src={twitter} alt="" ></img>
+                    <button onClick={()=>top()}>TOP</button>
                 </div>
             </div>
         </section>

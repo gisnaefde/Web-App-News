@@ -8,14 +8,14 @@ const Service = () => {
             <div className="container ">
                 <div className="row d-flex align-items-center">
                     <div className="col-md-2.5 photo">
-                        <div class="d-flex flex-column bd-highlight mb-3 ">
-                            <img src={service1} class=" bd-highlight between service1"></img>
-                            <img src={service2} class=" bd-highlight service2"></img>
+                        <div className="d-flex flex-column bd-highlight mb-3 ">
+                            <img src={service1} alt="" className=" bd-highlight between service1"></img>
+                            <img src={service2} alt="" className=" bd-highlight service2"></img>
                         </div>
                     </div>
                     <div className="col-md-2.5 photo">
-                        <div class="d-flex  bd-highlight mb-3">
-                            <img src={service3} class="p-2  bd-highlight service3"></img>
+                        <div className="d-flex  bd-highlight mb-3">
+                            <img src={service3} alt="" className="p-2  bd-highlight service3"></img>
                         </div>
                     </div>
                     <div className="col-md-7 ">

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './assets/scss/style.scss';
 import Home from './pages/Home';
 import { Router, Switch, Route} from 'react-router-dom';

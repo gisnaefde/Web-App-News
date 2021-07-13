@@ -44,6 +44,7 @@
 @import "print";
 
 .landingpages{
+    
     .hero-wrapper{
         height: 758px;
         position: relative;
@@ -128,10 +129,6 @@ Header{
             color: #f0ede7;
         }
     }
-    img{
-        height:435px;
-        width: 652px;
-    }
 }
 
 header{
@@ -174,6 +171,7 @@ header{
 }
 
 .blog{
+    overflow: hidden;
     span{
         color:#AFA798 ;
     }

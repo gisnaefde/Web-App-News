@@ -26,10 +26,10 @@ const Home = () => {
 
 
     return (
-        <div className="landingpages">
-            <div className="hero-wrapper">
+        <div className="landingpages bg-primary">
+            <div className="hero-wrapper container">
                 <div className="box d-flex"></div>
-                <div className="content-wrapper w-100">
+                <div className="content-wrapper">
                     <Navbar></Navbar>
                     <Hero></Hero>
                 </div>
@@ -41,7 +41,7 @@ const Home = () => {
                 <Blog posts={data}></Blog>
             </div>
             <div className="download-wrapper">
-                <img src={Gambar} className="trapesium"></img>
+                <img src={Gambar} alt="" className="trapesium"></img>
                 <div className="conten-download-wrapper">
                     <Download></Download>
                 </div>

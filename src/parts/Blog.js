@@ -1,7 +1,4 @@
 import React from 'react';
-import blog1 from '../assets/images/blog1.jpg';
-import blog2 from '../assets/images/blog2.jpg';
-import { useState } from 'react';
 
 const Blog = ({ posts }) => { //variabel posts ini nanti dipanggil sebagai props
     return (
@@ -11,8 +8,8 @@ const Blog = ({ posts }) => { //variabel posts ini nanti dipanggil sebagai props
                 {posts &&
                     posts.map((post, index) => { //map dimaksudkan untuk membagi-bagi data pada API
                         return (
-                            <div className="col-md-6">
-                                <img src={post.urlToImage}></img>
+                            <div key={index} className="col-md-6">
+                                <img src={post.urlToImage} alt=""></img>
                                 <p>9 Juli 2021</p>
                                 <h3> {post.title}</h3>
                                 <p>{post.description}</p>
