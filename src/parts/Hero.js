@@ -1,6 +1,7 @@
 import React from 'react';
 import photonews from '../assets/images/news.jpg';
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 const Hero = () => {
     return (
@@ -14,11 +15,12 @@ const Hero = () => {
                         <button className='btn btn2'>Selengkapnya</button>
                     </div>
                 </Fade>
-                <div className="col-12 col-sm-7">
-                    <img src={photonews} alt="" className="shadow-lg w-100 h-100"></img>
-                </div>
+                <Zoom>
+                    <div className="col-12 col-md-7 d-block d-md-block ">
+                        <img src={photonews} alt="" className="shadow-lg w-100 h-100"></img>
+                    </div>
+                </Zoom>
             </div>
-
         </section>
     );
 }

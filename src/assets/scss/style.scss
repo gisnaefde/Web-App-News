@@ -44,21 +44,22 @@
 @import "print";
 
 .landingpages{
-    
+    overflow: hidden;
+    .box{
+        position:absolute;
+        z-index:1;
+        height: 758px;
+        width: 531px;
+        top: 0;
+        right: 0;
+        background-color: #F3EDE9;
+
+    }
     .hero-wrapper{
         height: 758px;
         position: relative;
        
-        .box{
-            position:absolute;
-            z-index:1;
-            height: 758px;
-            width: 531px;
-            top: 0;
-            right: 0;
-            background-color: #F3EDE9;
 
-        }
         .content-wrapper{
             position: absolute;
             z-index:6;
@@ -101,9 +102,8 @@
     }
 }
 
-Header{
-    .navbar1{
-        background-color: #f0ede7;
+header{
+    overflow: hidden;
         .navbar2{
             height: 4rem;
             background-color: #f0ede7;
@@ -111,7 +111,6 @@ Header{
                 border-radius: 3rem;
             }
         }
-    }
 }
 
 
@@ -209,7 +208,7 @@ header{
         margin-top: 3rem;
         .download1{
             span{
-                color:#AFA798 ;
+                color:#000000 ;
             }
             .photo-download2{
                 width: 170px;
@@ -222,7 +221,7 @@ header{
         .download2{
             display: flex;
             align-items: center;
-            height: 500px;
+            height: 400px;
         
             span{
                 color:#AFA798 ;
@@ -232,6 +231,7 @@ header{
                 z-index: 10;
                 width: 205px;
                 height: 411px;
+    
             }
             h2{
                 position: absolute;

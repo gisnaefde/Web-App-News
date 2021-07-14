@@ -15,7 +15,7 @@ const Footer = () => {
     }
     return (
         <section className="footer container">
-            <div className="row row2">
+            <div className="row justify-content-center row2">
                 <div className="col-md-3 cold2">
                     <h4>News</h4>
                     <p>Politik</p>
