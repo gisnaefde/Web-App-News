@@ -45,6 +45,7 @@
 
 .landingpages{
     overflow: hidden;
+    position: relative;
     .box{
         position:absolute;
         z-index:1;
@@ -171,16 +172,28 @@ header{
 
 .blog{
     overflow: hidden;
+    h1{
+        margin-bottom: 3rem;
+    }
     span{
         color:#AFA798 ;
     }
-        h1{
-            margin-bottom: 3rem;
-        }
+
+    .box-blog{
+        height: 700px;
+       
         img{
+            object-fit: cover;
             height: 350px;
             width: 100%;
             border-radius: 10px; 
+            transition: all ease-in-out;
+            transition-duration: 500ms;
+
+            &:hover{
+                transform: scale(1.05);
+
+            }
         }
         p{
             margin-top: 1rem;
@@ -195,7 +208,7 @@ header{
                 color: #ece8df;
             }
         }
-    
+    }
 }
 
 .download{
@@ -221,7 +234,7 @@ header{
         .download2{
             display: flex;
             align-items: center;
-            height: 400px;
+            height: 350px;
         
             span{
                 color:#AFA798 ;
@@ -245,6 +258,15 @@ header{
 }
 
 .footer{
+    position: relative;
+    .arrow{
+        position: absolute;
+        z-index: 1;
+        top:0;
+        right: 0;
+        margin-right: 10px;
+        cursor: pointer;
+    }
     .row2{
         .cold2{
             margin-left: 1rem;

@@ -16,11 +16,12 @@ const Hero = () => {
                     </div>
                 </Fade>
                 <Zoom>
-                    <div className="col-12 col-md-7 d-block d-md-block ">
-                        <img src={photonews} alt="" className="shadow-lg w-100 h-100"></img>
-                    </div>
+                <div className="col-12 col-sm-7">
+                    <img src={photonews} alt="" className="shadow-lg w-100 h-100"></img>
+                </div>
                 </Zoom>
             </div>
+
         </section>
     );
 }

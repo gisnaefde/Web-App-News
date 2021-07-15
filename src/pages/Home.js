@@ -10,25 +10,26 @@ import Axios from 'axios';
 import { useState } from 'react';
 
 const Home = () => {
-
+    
     const [data, setData] = useState(null);
 
     useEffect(() => {
         Axios.get('https://newsapi.org/v2/top-headlines?country=id&apiKey=e4f4cec6fd384db4bb6b9a75c91cf075')
-            .then((result) => {
-                setData(result.data.articles);
-                console.log(result.data);
-            })
-            .catch((err) => {
-                console.log(err?.response?.data?.message)
-            })
-    }, []);
+        .then((result) => {
+            setData(result.data.articles);
+            console.log(result.data);
+        })
+        .catch((err) => {
+            console.log(err?.response?.data?.message)
+        })
+},[]);
 
 
     return (
         <div className="landingpages">
             <div className="box d-flex"></div>
             <div className="hero-wrapper container">
+                
                 <div className="content-wrapper">
                     <Navbar></Navbar>
                     <Hero></Hero>
@@ -50,7 +51,7 @@ const Home = () => {
                 <Footer></Footer>
             </div>
 
-
+            
 
         </div>
     );
